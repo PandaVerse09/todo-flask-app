@@ -60,6 +60,15 @@ User → Domain → Nginx → Docker Container → Flask App
 
 ---
 
+## 🔒 Security (HTTPS Enabled)
+
+- Configured HTTPS using SSL certificates
+- Used Certbot (Let's Encrypt) for free SSL
+- Nginx configured to handle secure traffic
+- Automatic HTTP → HTTPS redirection
+
+---
+
 ## 🐳 Docker Commands (Local)
 
 ```bash
