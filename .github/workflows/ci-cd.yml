@@ -37,5 +37,4 @@ jobs:
           docker pull pandaverze/todo-flask-app
           docker stop todo-container || true
           docker rm todo-container || true
-          docker run -d -p 5000:5000 --name todo-container pandaverze/todo-flask-app
-          
+          docker run -d -p 80:5000 --name todo-container pandaverze/todo-flask-app
