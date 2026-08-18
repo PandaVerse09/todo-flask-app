@@ -36,4 +36,4 @@ jobs:
         script: |
           docker pull ${{ secrets.DOCKER_USERNAME }}/todo-flask-app
           docker rm -f todo-container || true
-          docker run -d -p 80:5000 --name todo-container ${{ secrets.DOCKER_USERNAME }}/todo-flask-app
+          docker run -d -p 5000:5000 --name todo-container ${{ secrets.DOCKER_USERNAME }}/todo-flask-app

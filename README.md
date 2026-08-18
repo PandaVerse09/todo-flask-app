@@ -5,7 +5,7 @@ A production-ready Todo web application built using Flask, containerized with Do
 ---
 
 ## 🌐 Live Demo
-🔗 **[http://utkarsh-todo.duckdns.org](http://utkarsh-todo.duckdns.org)**  
+🔗 **[https://utkarsh-todo.duckdns.org](https://utkarsh-todo.duckdns.org)**  
 *(Alternative Direct IP: [http://3.110.12.248](http://3.110.12.248))*
 
 ---
